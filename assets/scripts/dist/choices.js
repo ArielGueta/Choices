@@ -1298,7 +1298,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  }, {
 	    key: '_triggerChange',
 	    value: function _triggerChange(value) {
-	      if (!value) {
+	      if (value === undefined) {
 	        return;
 	      }
 
